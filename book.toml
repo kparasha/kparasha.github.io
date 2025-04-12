@@ -1,0 +1,7 @@
+[book]
+title = "Memory Efficient GPT"
+authors = ["KP Kshitij Parashar"]
+language = "en"
+
+[output.html]
+additional-js = ["https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"]
