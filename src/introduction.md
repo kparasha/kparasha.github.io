@@ -1,6 +1,6 @@
-# Memory-Efficient GPT: Optimizing Large Language Models for Resource-Constrained Environments
+# Introduction
 
-## Introduction
+Welcome to Memory-Efficient GPT.
 
 Large Language Models (LLMs) have revolutionized natural language processing, but their computational demands present significant challenges for deployment in resource-constrained environments. Our Memory-Efficient GPT project addresses these challenges by implementing optimization techniques that substantially reduce memory usage while maintaining model performance.
 
