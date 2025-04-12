@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Large Language Models (LLMs) have revolutionized natural language processing, but their computational demands present significant challenges for deployment in resource-constrained environments. Our Memory-Efficient GPT project addresses these challenges by implementing a suite of optimization techniques that substantially reduce memory usage while maintaining model performance.
+Large Language Models (LLMs) have revolutionized natural language processing, but their computational demands present significant challenges for deployment in resource-constrained environments. Our Memory-Efficient GPT project addresses these challenges by implementing optimization techniques that substantially reduce memory usage while maintaining model performance.
 
 This blog post outlines our approach to creating a memory-efficient implementation of GPT-style models, focusing on quantization, attention optimization, and KV cache management. Our implementation is designed to be modular, allowing users to select the optimizations that best suit their specific hardware constraints and performance requirements.
 
@@ -46,7 +46,7 @@ We've implemented QLoRA (Quantized Low-Rank Adaptation) for memory-efficient fin
 - **Integration with PEFT**: Leveraging the Parameter-Efficient Fine-Tuning library from Hugging Face
 - **Adapter Management**: Support for saving, loading, and merging trained adapters
 
-QLoRA enables fine-tuning of large models on consumer hardware, reducing memory requirements by up to 65% compared to full fine-tuning.
+QLoRA enables the fine-tuning of large models on consumer hardware, reducing memory requirements by up to 65% compared to full fine-tuning.
 
 ## Inference Server
 
